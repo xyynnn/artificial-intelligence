@@ -1,0 +1,242 @@
+.back-to-top {
+  position: fixed;
+  right: 15px;
+  bottom: -50px;
+  z-index: 99999;
+  transition: all 0.4s linear;
+}
+.back-to-top i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  font-size: 20px;
+  border-radius: 50%;
+  background: #1351a8;
+  color: #fff;
+  transition: all 0.4s;
+}
+.back-to-top i:hover {
+  background: #000;
+  color: #fff;
+}
+.back-to-top:hover {
+  text-decoration: none;
+}
+
+/*header */
+#header {
+  color: #fff;
+  height: auto;
+  z-index: 997;
+  transition: all 0.6s;
+  background: linear-gradient(75deg, #1351a8 5%, #162e66) !important;
+}
+#header .navbar button i {
+  color: #fff;
+}
+#header .navbar h1 {
+  color: white;
+  font-size: 30px;
+}
+#header .navbar .nav-item {
+  padding: 0 20px;
+}
+#header .navbar .nav-item a {
+  color: #d1d1d1;
+  transition: all 0.4s;
+}
+#header .navbar .nav-item a:hover {
+  color: #fff;
+}
+#header .navbar .nav-item a.router-link-exact-active {
+  color: #fff;
+}
+
+.title {
+  margin: 100px 0 60px 0;
+}
+.title span {
+  color: #666;
+  display: block;
+  width: 100%;
+  max-width: 460px;
+  line-height: 30px;
+  margin: 20px auto;
+}
+
+.center {
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+.center .banner {
+  background: url(../img/header-bg.jpg);
+  position: relative;
+  padding: 100px 0;
+}
+.center .banner .banner-bottom {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+.center .banner .banner-bottom img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 800px;
+}
+.center .school {
+  margin: 100px 0;
+}
+.center .school img {
+  width: 100%;
+}
+.center .school p {
+  color: #666;
+}
+.center .school button {
+  padding: 10px 30px;
+  background: #1351a8;
+  color: #fff;
+  border: 1px solid #1351a8;
+}
+.center .school button:hover {
+  background: #fff;
+  color: #1351a8;
+}
+.center .online .online-single {
+  box-shadow: 0px 0px 10px #eee;
+  padding: 30px 40px;
+  transition: all 0.3s;
+}
+.center .online .online-single .online-icon {
+  margin-bottom: 20px;
+}
+.center .online .online-single .online-icon i {
+  padding: 20px;
+  background: rgba(255, 159, 84, 0.2);
+  color: #ff9f54;
+  border-radius: 50%;
+  font-size: 30px;
+}
+.center .online .online-single .online-icon i.online-green {
+  background: rgba(68, 206, 172, 0.2);
+  color: #44ceb0;
+}
+.center .online .online-single .online-icon i.online-red {
+  background: rgba(250, 36, 123, 0.2);
+  color: #fa247b;
+}
+.center .online .online-single:hover {
+  margin-top: -20px;
+}
+.center .stu {
+  background: #1351a8;
+  background-image: url(../img/about-bg1.png);
+  background-attachment: fixed !important;
+  width: 100%;
+  padding: 70px 0;
+}
+.center .stu .stu-single i {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+.center .teacher {
+  margin-bottom: 80px;
+}
+.center .teacher .teacher-single {
+  box-shadow: 0px 0px 10px #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  padding-bottom: 5px;
+}
+.center .teacher .teacher-single .teacher-img {
+  position: relative;
+  margin-bottom: 15px;
+  transition: all 0.5s;
+}
+.center .teacher .teacher-single .teacher-img img {
+  width: 100%;
+}
+.center .teacher .teacher-single .teacher-img .links {
+  width: 100%;
+  position: absolute;
+  top: -50px;
+  z-index: 999;
+  padding: 0;
+  transition: all 0.6s;
+}
+.center .teacher .teacher-single .teacher-img .links li {
+  list-style: none;
+  float: left;
+  margin: 20px;
+}
+.center .teacher .teacher-single .teacher-img .links li a {
+  color: #fff;
+  transition: all 0.3s;
+}
+.center .teacher .teacher-single .teacher-img .links li a:hover {
+  color: #1351a8;
+}
+.center .teacher .teacher-single:hover .teacher-img .links {
+  top: 50%;
+  margin-top: -25px;
+}
+.center .teacher .teacher-single:hover .teacher-img::before {
+  content: "";
+  z-index: 99;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+footer .footer-top {
+  background: linear-gradient(75deg, #1351a8 5%, #162e66) !important;
+  padding: 50px 0;
+}
+footer .footer-top .col-lg-3 {
+  margin-bottom: 30px;
+}
+footer .footer-top h5 {
+  color: #fff;
+  margin-bottom: 20px;
+}
+footer .footer-top a {
+  display: block;
+  color: #d1d1d1;
+  margin: 5px 0;
+  transition: all 0.5s;
+}
+footer .footer-top a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+footer .footer-bottom {
+  padding: 15px 0;
+}
+footer .footer-bottom .banquan {
+  font-size: 14px;
+}
+footer .footer-bottom .link {
+  margin: 0;
+  padding: 0;
+}
+footer .footer-bottom .link li {
+  float: left;
+  list-style: none;
+  margin-left: 30px;
+}
+footer .footer-bottom .link li a {
+  transition: all 0.5s;
+  color: #1351a8;
+}
+footer .footer-bottom .link li a:hover {
+  color: #000;
+}
+
+/*# sourceMappingURL=about.css.map */
