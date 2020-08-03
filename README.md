@@ -1,1 +1,1 @@
-artificial-intelligence
+一个简单的bootstrap界面
